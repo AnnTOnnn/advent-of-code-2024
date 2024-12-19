@@ -29,5 +29,4 @@ if __name__ == "__main__":
 
     print('Solution part 1:', sum(bool(solve(p)) for p in patterns))
 
-
-    print('Solution part 1:', sum(solve(p) for p in patterns))
+    print('Solution part 2:', sum(solve(p) for p in patterns))
